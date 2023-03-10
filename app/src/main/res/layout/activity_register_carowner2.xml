@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/register_mechanic_background_color"
+    tools:context=".register_carowner">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Sign Up"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                />
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/kemf_login_logo"
+                android:paddingTop="10dp"
+                />
+
+            <EditText
+                android:id="@+id/carowner_Name"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:inputType="textPersonName"
+                android:hint="Your Name"
+                android:textColorHint="@color/black"
+                android:background="@drawable/round_btn"/>
+
+            <EditText
+                android:id="@+id/register_mechanics_email"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:hint="Email"
+                android:textColorHint="@color/black"
+                android:background="@drawable/round_btn"
+                android:inputType="textEmailAddress" />
+
+
+            <EditText
+                android:id="@+id/register_carowner_password"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:paddingEnd="10dp"
+                android:hint="Password"
+                android:textColorHint="@color/black"
+                android:inputType="textPassword"
+                android:background="@drawable/round_btn"
+                android:paddingStart="10dp"
+                />
+
+
+            <EditText
+                android:id="@+id/register_carowner_password_confirm"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/round_btn"
+                android:hint="Confirm Password"
+                android:inputType="textPassword"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:textColorHint="@color/black"
+                android:textSize="15dp" />
+
+
+
+            <EditText
+                android:id="@+id/register_mechanics_bio"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:inputType="textPersonName"
+                android:hint="Car Details"
+                android:textColorHint="@color/black"
+                android:background="@drawable/round_btn"/>
+
+
+            <Button
+                android:id="@+id/caronwer_login_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="30dp"
+                android:text="Sign Up"
+                android:background="@drawable/login_btn_background"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#ffff"
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:id="@+id/register_loginheretext_carowner"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Have an Account? Login here"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="30dp"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

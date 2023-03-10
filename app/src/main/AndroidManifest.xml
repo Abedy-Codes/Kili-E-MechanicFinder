@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/login_btn_background"
+        android:label="KiliMechs"
+        android:roundIcon="@drawable/kemf_login_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.KEMF"
+        tools:targetApi="31">
+        <activity
+            android:name=".dashboard_mechanic"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".dashboard_carowner"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".forgotpassword_carowner"
+            android:exported="false"
+            android:theme="@style/Theme.forgotpassword_carowner">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".forgotpassword_mechanic"
+            android:exported="false"
+            android:theme="@style/Theme.forgotpassword_mechanics">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".register_carowner"
+            android:exported="false"
+            android:theme="@style/Theme.register_carowner">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".register_mechanics"
+            android:exported="false"
+            android:theme="@style/Theme.register_mechanics">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".login_carowner"
+            android:exported="false"
+            android:theme="@style/Theme.login_carowner">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".login_mechanic"
+            android:exported="false"
+            android:theme="@style/Theme.login_mechanic">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".select_user"
+            android:exported="false"
+            android:theme="@style/Theme.select_user">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".kemf_splashscreen"
+            android:exported="true"
+            android:theme="@style/Theme.splashscreen">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+    </application>
+
+</manifest>
